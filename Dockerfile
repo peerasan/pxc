@@ -21,3 +21,6 @@ EXPOSE 3306
 EXPOSE 4444
 EXPOSE 4567
 EXPOSE 4568
+
+ADD start.sh /start.sh
+CMD ["/start.sh"]
