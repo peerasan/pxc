@@ -22,7 +22,6 @@ EXPOSE 4444
 EXPOSE 4567
 EXPOSE 4568
 
-
 ADD start.sh /start.sh
 RUN chmod 755 /start.sh
 CMD ["/start.sh"]
